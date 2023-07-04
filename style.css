@@ -4,6 +4,14 @@ body {
     font-family: Verdana, sans-serif;
 }
 
+.text {
+    padding: 4px;
+}
+
+.headings.alert {
+    background-color: rgb(249, 156, 156);
+}
+
 .headings {
     font-family: Georgia, serif;
     margin: 0px;
@@ -31,11 +39,20 @@ body {
 }
 
 .ingredients {
-margin: 0;
-background-color: rgb(247, 196, 196);
+    margin: 0;
+    background-color: rgb(247, 196, 196);
 }
 
 .steps {
     margin: 0;
     background-color: rgb(250, 221, 168);
+}
+
+.text.first, .text.last {
+    margin: 0;
+}
+
+.text.corn {
+    padding: 16px;
+    text-align: center;
 }
