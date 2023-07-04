@@ -1,8 +1,41 @@
+body {
+    margin: 0;
+    border: solid;
+    font-family: Verdana, sans-serif;
+}
+
 .headings {
+    font-family: Georgia, serif;
+    margin: 0px;
+    padding: 15px;
     text-align: center;
+    border: solid;
+    background-color: rgb(240, 240, 133);
 }
 
 .image {
+    display: block;
+    margin: auto;
     height: auto;
     width: 600px;
+}
+
+.lists .text {
+    margin: 0px 290px;
+}
+
+.description {
+    background-color: rgb(196, 196, 248);
+    margin: 0;
+    padding: 16px;
+}
+
+.ingredients {
+margin: 0;
+background-color: rgb(247, 196, 196);
+}
+
+.steps {
+    margin: 0;
+    background-color: rgb(250, 221, 168);
 }
